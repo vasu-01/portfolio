@@ -1,0 +1,594 @@
+
+                   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(4, 19, 50);
+    background: rgb(8, 27, 41);
+}
+
+
+
+                    /* PHOTO     SECTION */
+.home .home-content .content{
+    width:27rem;
+}
+.home-content{
+    margin-top:4rem;
+}
+
+.home-content #img{
+    height:450px;
+    width:450px;
+    border:3px solid white;
+    border-radius: 50%;
+    box-shadow: 30px 30px 40px rgba(0,238,255,0.7),
+    -30px -30px 40px rgba(0,238,255,0.7),
+    30px -30px 50px rgba(244, 21, 224, 0.74),
+    -30px 30px 50px rgba(224, 21, 224, 0.74);
+    background-color:transparent;
+    margin: 4% 15% 0 12rem;
+
+}
+.home-content{
+    margin-top:5rem;
+}
+.home-content #img img{
+    height:449px;
+    width:447px;
+    border-radius: 50%;
+    padding:10px;
+}
+                   
+
+                            /*HEADER   SECTION  */
+
+.header .navbar{
+    margin-right: 5rem;
+}
+.header ::before{
+    background-color: black;
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 20px 10px;
+    background:rgba(13, 58, 147, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.header .logo{
+    position: relative;
+    font-size:25px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    margin-right: 1.5rem;
+    transition: .3s;
+}
+.navbar a:hover{
+    color:#0ef;
+}
+
+
+                        /* HOME   SECTION */
+
+.home-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home-content .content h3{
+    color:#fff;
+    font-size: 30px;
+    font-weight: 400px;
+}
+.home-content .content h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+}
+.home-content .content p{
+    font-size: 15px;
+    margin-top:2rem;
+    color: #fff;
+}
+
+.home-content .home-sci{
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 0 0 0; 
+}
+.home-content .home-sci a i{
+    margin:0 10px 0 10px;
+    border: 1.5px solid  #0ef;
+    height:40px;
+    width:40px;
+    font-size: 20px;color: #0ef;
+    border-radius: 50%;
+    padding:9px 0 10px 10px;
+    
+}
+.btn .button{
+        height: 2.5rem;
+        width: 9.5rem;
+        border-radius: 30px;
+        margin: 23px 0 0 44px;
+        background: #0ef;
+        box-shadow: 0px 0px 0px rgba(255,255,255,0.4),
+        -1px 1px 0px rgba(0,238,255,0.9),
+        0px 0px 0px rgba(255,255,255,0.1),
+        -1px -1px 16px rgba(0,235,255,0.9);
+        border: none;
+        cursor: pointer;
+}
+
+
+
+                           /* ABOUT ME  SECTION */
+
+
+.about{
+    margin-top:15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about #img{
+    height:350px;
+    width:350px;
+    border:3px solid white;
+    border-radius: 50%;
+    box-shadow: 10px 10px 30px rgba(0,238,255,0.7),
+    -10px -10px 30px rgba(0,238,255,0.7),
+    20px -20px 40px rgba(244, 21, 224, 0.74),
+    -20px 20px 40px rgba(224, 21, 224, 0.74);
+    background-color:transparent;
+    margin: 8% 15% 0 0;
+
+}
+.about #img img{
+    height:349px;
+    width:347px;
+    border-radius: 50%;
+    padding:10px;
+}
+.about .about-me-content h3{
+    color: #fff;
+    font-size: 3.8rem;
+    font-weight: 300;
+}
+.about .about-me-content h3 span{
+    color: #0ef;
+}
+.about .about-me-content h5{
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 5rem;
+}
+.about .about-me-content p{
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.5rem;
+}
+
+
+                   /* SERVICES  SECTION */
+
+.services{
+    margin-top: 15rem;
+}
+.services h1{
+    text-align: center;
+    margin: 0rem 0 8rem 0;
+    font-size: 4rem;
+    color: #fff;
+}
+.services h1 span{
+    color: #0ef;
+}
+.services p{
+    color: #fff;
+    opacity: 0.7;
+}
+.my-services {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    /* margin-bottom: 50px; */
+}
+.my-services .service{
+    height:22rem;
+    width:28rem;
+    border: 2px solid white;
+    box-shadow:10px 10px 15px rgb(15, 15, 101),
+    -10px -10px 15px rgba(15, 15, 101),
+    10px -10px 15px rgb(15, 15, 101),
+    -10px 1dvw 15px rgb(15, 15, 101);
+}
+.my-services .service .logo i{
+    font-size: 2rem;
+    color: #0ef;
+    padding:2.5rem 0rem 1.8rem 2.5rem;
+}
+.my-services .service-content{
+    padding:10px 30px 10px 30px;
+    color: #fff;
+}
+.my-services .service-content h2{
+    line-height: 4rem;
+    font-size: 1.8rem;
+}
+.my-services .service-content .btn {
+    margin-left: 4.5rem;
+    
+}
+.my-services .service-content .btn .button{
+    padding: 8px;
+    color: black;
+    height:2rem;
+    width: 8rem;
+    cursor: pointer;
+    
+}
+
+
+                     /* SKILL    SECTION */
+
+
+.skill{
+    margin-top: 15rem;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    padding:1.5rem 3rem 5rem 6rem;
+    
+}
+
+.technical-skills{
+    width: 50%;
+}
+.technical-skills .cont{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+}
+.skill h1{
+    text-align: center;
+    margin: 0rem 0 4rem 0;
+    font-size: 4rem;
+    color: #fff;
+}
+.skill h1 span{
+    color: #0ef;
+}
+.skill .technology img{
+    height:2rem;
+    width: 2rem;
+    margin-top: 2rem;
+}
+.skill .technology h3{
+    color: #fff;
+    font-weight: 100;
+}
+.container{
+    margin-top: 15px;
+    width:100%;
+    height: 0.2rem;
+    background-color: gray;
+}
+.html5{
+    width:85%;
+    height: 0.2rem;
+    background-color: #0ef;
+}
+.css3{
+    width:75%;
+    height: 0.2rem;
+    background-color: #0ef;
+}
+.js{
+    width:25%;
+    height: 0.2rem;
+    background-color: #0ef;
+}
+.bootstrap{
+    width:35%;
+    height: 0.2rem;
+    background-color: #0ef;
+}
+.professional-skills .cont{
+        font-size: 2rem;
+        margin-bottom: 5rem;
+        color: #fff;
+        text-align: center;
+        text-decoration: underline;
+        margin-left: 2rem;
+
+}
+.professional-skills .contain-professional{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 17rem;
+} 
+svg{
+    margin-right: 1.5rem;
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+}
+svg circle{
+    width: 100%;
+    height: 100%;
+    fill:none;
+    stroke: #191919;
+    stroke-width: 8px;
+    stroke-linecap: 10;
+    stroke-linecap: round;
+    transform: translate(5px,5px);
+}
+svg circle:nth-child(2){
+    stroke-dasharray: 297;
+    stroke-dashoffset: 269;
+}
+.card:nth-child(1) svg circle:nth-child(2){
+    stroke: #0ef;
+}
+.card:nth-child(2) svg circle:nth-child(2){
+    stroke: #0ef;
+}
+.card:nth-child(3) svg circle:nth-child(2){
+    stroke: #0ef;
+}
+.card:nth-child(4) svg circle:nth-child(2){
+    stroke: #0ef;
+}
+
+.box{
+    margin:7px 30px 20px 30px;
+}
+.contain-professional .box .percent{
+    margin-right: 10px;
+}
+.contain-professional .box .number {
+    text-align: center;
+    color: #fff;
+}
+.contain-professional .box .number h2{
+    font-weight: 300;
+}
+
+
+
+                                 /* TEMPLATES  SECTION */
+.templates{
+     margin-top:10rem;
+     
+}
+.templates h1{
+    text-align: center;
+    margin: 0rem 0 14rem 0;
+    font-size: 4rem;
+    color: #fff;
+}
+.templates h1 span{
+    color: #0ef;
+}
+.template-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.template-box{
+    margin:0 6% 0 0;
+    position:relative;
+    width:25%;
+    height: 50%;
+}
+.template-box .boxes .intro h2{
+    opacity: 0.9;
+}
+.template-box .boxes .card-1 img{
+    display:block;
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.intro{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(20, 129, 206, 0.45);
+    overflow: hidden;
+    width:122%;
+    height:0;
+    transition:.5s ease;
+}
+.template-box:hover .intro{
+    height:100%;
+}
+
+.template-box .boxes .intro h1{
+    width:100%;
+    margin-top:7%;
+    color:white;
+    font-size:3vw;
+    position: absolute;
+    text-align: center;
+    transform: rotate(-5deg)skewX(-5deg);
+}
+.template-box .boxes .intro h2{
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+    margin: 25% 0 0 8%;
+    width:80%;
+    letter-spacing: 1.5px;
+    line-height:1.5rem;
+} 
+.card-1{
+    border-radius: 10px;
+    width:463px;
+    height:100%;
+    box-shadow: -1px 1px 5px rgba(0,0,0,0.75),
+    1px -1px 5px rgba(0,0,0,0.75);
+}
+.card-1 h1{
+    width:100%;
+    margin-top:7%;
+    color:white;
+    font-size:4vw;
+    position: absolute;
+    text-align: center;
+    transform: rotate(-2deg)skewX(-2deg);
+}
+.card-1 h2{
+    text-align: center;
+    color: white;
+    font-size: 1.2vw;
+    margin: 25% 0 0 18%;
+    width:70%;
+    letter-spacing: 5px;
+    line-height:1.5rem;
+}
+
+
+
+                               /* FOOTER   SECTION */
+
+footer{
+    margin-top:20rem;
+    padding: 3rem;
+}
+footer .contact-section{
+
+    display: flex;
+    justify-content: space-between;
+}
+.contact-section .contact-area h3{
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top:-6rem;
+}
+.contact-section .contact-area h3 span{
+    color: #0ef;
+}
+.contact-section .contact-area h4{
+    color: #fff;
+    font-size:1.5rem ;
+    line-height: 3rem;
+    letter-spacing: 1px;
+}
+.contact-section .contact-area p{
+    color: #fff;
+    opacity: 0.7;
+    line-height: 1rem;
+    letter-spacing: 1px;
+    font-weight: 30;
+}
+.contact-section .contact-area .icon{
+    margin:1rem 0 1rem 0;
+}
+.contact-section .contact-area .icon span{
+    color: #fff;
+    opacity: 0.7;
+    margin-left: 10px;
+}
+footer .home-sci{
+    display: flex;
+    flex-direction: row;
+    margin: -70px 0 0 0px; 
+}
+footer  .home-sci a i{
+    margin:0 10px 0 10px;
+    border: 1.5px solid  #0ef;
+    height:40px;
+    width:40px;
+    font-size: 20px;color: #0ef;
+    border-radius: 50%;
+    padding:9px 0 10px 10px;
+}
+footer .form-area {
+    margin-bottom: -10px; 
+}
+footer .contact-section .form-area h3{
+    font-size: 2.5rem; 
+}
+footer .contact-section .form-area .h3{
+    font-size: 2.5rem;
+    margin-top: -6px; 
+}
+footer .form-area .inp input{
+    width: 32rem;
+    height: 2.8rem;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 0.8rem;
+    opacity: 0.8;
+
+}
+footer .form-area .message input{
+    height: 8.8rem;
+}
+footer .form-area h3{
+    font-size: 2rem;
+    color: #0ef;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top:-6rem;
+}
+footer .form-area .sub {
+    text-align: center;
+}
+footer .form-area .sub .Submit{
+    margin-top: 1rem;
+    height: 3rem;
+    width: 25rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 23px 0 0 44px;
+    background: #0ef;
+    box-shadow: 0px 0px 0px rgba(255,255,255,0.4), -1px 1px 0px rgba(0,238,255,0.9), 0px 0px 0px rgba(255,255,255,0.1), -1px -1px 16px rgba(0,235,255,0.9);
+    border: none;
+}
+
+
+.copyright{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
